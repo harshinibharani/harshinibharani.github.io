@@ -1,28 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-        }
-        h1 {
-            color: #6a5acd;
-        }
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-    </style>
+    <title>Harshini Bharanidharan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a test page for my new portfolio website hosted on GitHub Pages.</p>
+    <header>
+        <h1>Harshini Bharanidharan</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I am Harshini Bharanidharan. I am currently pursuing a Master of Science in Computer Science at the
+            University of Massachusetts Amherst.
+            My academic journey began at SSN College of Engineering in Chennai, where I earned a Bachelor of Technology
+            in Information Technology with a CGPA of 9.2 out of 10. Professionally, I have worked as a Software Engineer
+            at Freshworks in Chennai, where I led significant projects focused on cloud governance and compliance using
+            AWS, enhancing system efficiency and reducing costs.
+            My role involved extensive work with Python, Django, and JavaScript, contributing to agile development
+            processes and innovative cost management solutions. My passion for technology extends beyond my professional
+            and academic experiences. I am driven by the challenges of developing practical, scalable solutions that
+            impact people's lives positively.
+            I'm always eager to connect with fellow tech enthusiasts and potential collaborators who are passionate
+            about building innovative solutions. Feel free to reach out to me through any of the social links provided
+            below!</p>
+    </section>
+
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my full resume <a href="Harshini Resume.pdf" download>here</a>.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <article>
+            <h3>Software Engineer, Freshworks</h3>
+            <p>Chennai, IN — August 2022 to August 2023</p>
+            <ul>
+                <li>Led the implementation of automated cloud governance and compliance protocols across AWS services,
+                    achieving a 5% cost reduction without compromising performance or security.</li>
+                <li>Facilitated Agile development processes and CI/CD pipeline integration using Docker and Jenkins.
+                </li>
+                <li>Utilized Python, Django, JavaScript, and the AWS SDK to develop a comprehensive dashboard that
+                    increased visibility into cloud service expenditures, enabling better cost management decisions.
+                </li>
+                <li>Collaborated with cross-functional teams to integrate cloud cost analysis tools into existing
+                    financial reporting systems, reducing manual data entry by 30% and improving accuracy.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Software Developer Intern, ITK Education Services Pvt. Ltd</h3>
+            <p>Chennai, IN — March 2022 to May 2022</p>
+            <ul>
+                <li>Conducted a full-cycle software development process including requirement analysis, application
+                    customization, and comprehensive testing using the ZOHO Creator Platform and Deluge scripting
+                    language.</li>
+                <li>Designed and implemented Enterprise Resource Planning (ERP) software to manage the entire process
+                    involving multiple stakeholders, from lead acquisition to product delivery, enhancing operational
+                    efficiency by 20%.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Software Engineer Intern, Scienaptic Systems</h3>
+            <p>Bengaluru, IN — July 2021 to August 2021</p>
+            <ul>
+                <li>Developed and deployed a RESTful API using Flask to streamline data access in MongoDB databases.
+                </li>
+                <li>Engineered a web application using PostgreSQL, Spring Boot, and Angular to enable users to view,
+                    search, delete, and add books to a cart.</li>
+            </ul>
+        </article>
+    </section>
+
+
+    <section id="education">
+        <h2>Education</h2>
+        <article>
+            <h3>Master of Science in Computer Science</h3>
+            <p>University of Massachusetts Amherst, Amherst, MA</p>
+            <p>GPA: 3.9/4.0 — September 2023 to May 2025</p>
+        </article>
+        <article>
+            <h3>Bachelor of Technology in Information Technology</h3>
+            <p>SSN College of Engineering, Chennai, IN</p>
+            <p>CGPA: 9.2/10 — August 2018 to June 2022</p>
+        </article>
+        <p>Relevant Courses: Systems for Data Science, Machine Learning, Secure Distributed Systems, Database Design and
+            Implementation, Theory and Practice of Software Engineering, Methods of Applied Statistics</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Code Summarization and Evaluation</h3>
+                <p>Developed a system for code summarization and evaluation using GPT-3.5 Turbo to generate
+                    understandable summaries of source code. It features user authentication, code summarization, and
+                    results evaluation with a rating system.</p>
+                <a href="https://github.com/harshinibharani/codesum">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Fitness Tracker Web App</h3>
+                <p>Developed a full-stack application for tracking workouts and macronutrients using the MERN stack.
+                    Features include API integration and advanced state management with React Hooks.</p>
+                <a href="https://github.com/harshinibharani/fitness-tracker">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Titanic Survival Prediction</h3>
+                <p>Designed machine learning models to predict the survival of passengers. Implemented Random Forest,
+                    SVM, and MLP models with hyperparameter optimization for improved accuracy.</p>
+                <a href="https://github.com/harshinibharani/projects/blob/main/titanic_survival.py">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>COVID-19 Pneumonia Severity Assessment</h3>
+                <p>Developed a deep learning model using CNNs and the Xception architecture to assess and score the
+                    severity of COVID-19 pneumonia from CT scans. Achieved a 92% Pearson correlation in validation,
+                    demonstrating high accuracy.</p>
+                <a href="https://github.com/harshinibharani/projects/blob/main/Severity%20scoring.ipynb">View on
+                    GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Bookstore Application</h3>
+                <p>Developed a full-stack bookstore application using PostgreSQL for data management, Spring Boot for
+                    backend operations, and Angular for the frontend. Designed to facilitate the viewing, searching,
+                    adding, and deleting of books.</p>
+                <a href="https://github.com/harshinibharani/Bookstore">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Todo Manager</h3>
+                <p>Created a Todo Manager application using Ruby to help users manage daily tasks efficiently. Features
+                    include adding, editing, and deleting tasks, with a simple and user-friendly interface.</p>
+                <a href="https://github.com/harshinibharani/todo_manager">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Patient Care Program</h3>
+                <p>Developed a C program designed to improve emergency department efficiency by segregating patients
+                    based on symptoms. This system categorizes patients as stable or unstable, facilitating appropriate
+                    and timely medical responses.</p>
+                <a href="https://github.com/harshinibharani/PatientCare">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>WeatherWiz</h3>
+                <p>Developed a Python application using the OpenWeatherMap API to provide real-time weather updates.
+                    Features include weather data by city or current location, displaying temperature, pressure,
+                    humidity, and more.</p>
+                <a href="https://github.com/harshinibharani/projects/blob/main/WeatherWiz.py">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Linux</li>
+                    <li>R</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks & Libraries</h3>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Spring Boot</li>
+                    <li>Material UI</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>AWS Lambda</li>
+                    <li>AWS Cost Management</li>
+                    <li>Pandas</li>
+                    <li>Numpy</li>
+                    <li>Git</li>
+                    <li>Postman</li>
+                    <li>PostgreSQL</li>
+                    <li>Agile Methodologies</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>Keras</li>
+                    <li>PyTorch</li>
+                    <li>Scikit-learn</li>
+                    <li>Large Language Models</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:harshinibharanidharan22@gmail.com">harshinibharanidharan22@gmail.com</a></p>
+        <p>LinkedIn: <a href="http://www.linkedin.com/in/harshini-bharani">harshini_bharani</a></p>
+        <p>GitHub: <a href="https://github.com/harshinibharani">harshinibharani</a></p>
+    </section>
 </body>
+
 </html>
